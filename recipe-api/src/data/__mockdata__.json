@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Spaghetti Bolognese",
+    "timeToPrepare": 45,
+    "ingredients": [
+      "Spaghetti",
+      "Ground Beef",
+      "Tomato Sauce",
+      "Onion",
+      "Garlic"
+    ],
+    "steps": [
+      "Boil the spaghetti",
+      "Cook the ground beef",
+      "Add the tomato sauce",
+      "Serve with grated cheese"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Chicken Curry",
+    "timeToPrepare": 60,
+    "ingredients": [
+      "Chicken",
+      "Curry Powder",
+      "Coconut Milk",
+      "Onion",
+      "Garlic",
+      "Ginger"
+    ],
+    "steps": [
+      "Fry the onion, garlic, and ginger",
+      "Add the chicken and curry powder",
+      "Pour in the coconut milk and simmer",
+      "Serve with rice"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Vegetable Stir Fry",
+    "timeToPrepare": 30,
+    "ingredients": [
+      "Broccoli",
+      "Carrots",
+      "Bell Peppers",
+      "Soy Sauce",
+      "Garlic"
+    ],
+    "steps": [
+      "Chop the vegetables",
+      "Fry the vegetables in a wok",
+      "Add the soy sauce and garlic",
+      "Serve with noodles or rice"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Tuna Salad",
+    "timeToPrepare": 15,
+    "ingredients": [
+      "Tuna",
+      "Mayonnaise",
+      "Celery",
+      "Onion"
+    ],
+    "steps": [
+      "Drain the tuna",
+      "Chop the celery and onion",
+      "Mix the tuna, mayonnaise, celery, and onion",
+      "Serve with bread or crackers"
+    ]
+  }
+]
