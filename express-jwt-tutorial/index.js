@@ -1,5 +1,6 @@
 // Load environment variables from .env file
 require("dotenv").config();
+console.log(process.env.ACCESS_TOKEN_SECRET);
 
 // Import necessary modules
 const express = require("express");
@@ -7,6 +8,9 @@ const jwt = require("jsonwebtoken");
 
 // Initialize a new express application
 const app = express();
+
+// Serve static files from the client directory
+app.use(express.static('client'));
 
 // Middleware for parsing JSON bodies from HTTP requests
 app.use(express.json());
@@ -52,6 +56,11 @@ const authenticateToken = (req, res, next) => {
 app.get("/protected", authenticateToken, (req, res) => {
   // Respond with the email from the authenticated user
   res.json({ email: req.user.email });
+});
+
+// Welcome route
+app.get('/', (req, res) => {
+  res.send('Welcome to the Home Page!');
 });
 
 // Start the server on port 3000
