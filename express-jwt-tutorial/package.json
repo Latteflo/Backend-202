@@ -1,13 +1,13 @@
 {
   "name": "express-jwt-tutorial",
   "version": "1.0.0",
-  "description": "",
+  "description": "practice on how to use jwt with express and nodejs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Flo",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.3.1",
