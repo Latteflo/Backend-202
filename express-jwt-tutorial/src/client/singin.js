@@ -1,7 +1,6 @@
 // Add an event listener for the submit event on the form with the id 'signinForm'
-document
-  .getElementById("signinForm")
-  .addEventListener("submit", function (event) {
+let singInForm = document.getElementById("signinForm")
+  singInForm.addEventListener("submit", function (event) {
     // Prevent the form from being submitted normally
     event.preventDefault();
 
